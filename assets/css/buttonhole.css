@@ -1,0 +1,214 @@
+body {overflow-x:hidden;}
+
+body #buttonhole{
+	font-family: 'eurostile';
+	
+}
+
+
+#buttonhole img { border: 0; }
+
+#buttonhole h1, 
+#buttonhole h2,
+#buttonhole h3,
+#buttonhole h4,
+#buttonhole h5,
+#buttonhole strong,
+#buttonhole em {
+	font-family: 'eurostilebold';
+}
+
+.container-fluid { padding:0; margin:0;background:url(../img/lancamentos/caseadeira/bg.png) repeat-x 0 -120px;}
+
+#buttonhole .mainColor   { color:#0c838a}
+#buttonhole .secondColor { color:#363636}
+#buttonhole .thirdColor  { color:#866f5b}
+#buttonhole .whiteColor  { color:#ffffff}
+#buttonhole .blackColor  { color:#00000}
+#buttonhole .mini		 { font-size:12px; line-height:12px;}
+#buttonhole .small		 { font-size:15px; line-height:15px;}
+#buttonhole .normal		 { font-size:24px; line-height:24px;}
+#buttonhole .big		 { font-size:43px; line-height:40px;}
+#buttonhole .padding10x0 { padding:10px 0}
+ 
+#buttonhole .header 	{ }
+	#buttonhole .logo 	{ padding-top:5px; width:200px} 
+
+	#buttonhole .name 	     { }
+	#buttonhole .quickMenu   { margin:0; padding:0; font-size:12px; height:20px; text-align:right; color:#866f5b; padding-top:2px}
+	#buttonhole .quickMenu a { color:#0c838a}
+	#buttonhole .name h1     { font-size:24px; line-height:24px; padding:0; margin:0;height:25px;}
+	#buttonhole .back        { padding-top:5px; position:absolute; z-index:6; top:90px; text-shadow: 0.1em 0.1em 0.1em #333}
+	#buttonhole .back a      { color:#FFFFFF;}
+	#buttonhole .seal        { position:absolute; margin-left:330px; margin-top:-20px; padding-top:20px; width:160px}
+
+#buttonhole .barSewing { height:70px; background:url(../img/lancamentos/caseadeira/bar.png) no-repeat center; width:100%; padding:0; margin:0; margin-top:-5px;}
+
+#buttonhole .container 		  		{ padding:0 15px;}
+	#buttonhole .machine 	   		{ position:absolute; margin-top:-90px; z-index:3; }
+	  *+html #buttonhole .machine { margin:-80px 0 0 -1000px; }/*HACK IE7*/
+	#buttonhole .suit 	   			{ position:absolute; margin:-30px 0 0 -160px; z-index:2}
+		*+html #buttonhole .suit { margin:-40px 0 0 -1200px;}/*HACK IE7*/
+	#buttonhole .resellers 	   		{ padding-top:490px }
+	#buttonhole .description   		{ padding-top:100px;font-size:18px;}
+	#buttonhole .description ul  	{ height:120px}
+	#buttonhole .description ul li  { padding:7px 0 }
+	.slides				{ padding-top:10px; padding-left:180px;}
+		a.slidesjs-next,
+		a.slidesjs-previous,
+		a.slidesjs-play,
+		a.slidesjs-stop 		  { background-repeat: no-repeat; display:block; width:12px; height:18px; overflow:hidden; text-indent: -9999px;float: left;margin-right:5px;}
+		.slidesjs-pagination	  { list-style: none; width:230px; margin: -35px 0px 0px -170px; position: absolute; border-top:3px solid #0c838a}
+		.slidesjs-pagination li   { float: left; margin: 0 3px;}
+		.slidesjs-pagination li a {display: block;width: 13px;height: 0;padding-top: 13px;background-image: url(../img/lancamentos/caseadeira/pagination.png); background-position: 0 0; float:left;overflow: hidden;}
+		.slidesjs-pagination li a.active,
+		.slidesjs-pagination li a:hover.active  { background-position: 0 -13px }
+		.slidesjs-pagination li a:hover 		{ background-position: 0 -26px}
+
+	#buttonhole .multiApp			{ position:absolute; width:190px; margin:-125px 0 0 -170px;}
+	
+	
+	/* Tiny Carousel */
+	#buttonhole #video { height: 1%; overflow:hidden; position: relative; height:380px; padding:20px 0 0 10px   }
+	#buttonhole #video .viewport { float: left; width: 780px; height: 320px; overflow: hidden; position: relative;  margin-top:10px }
+	#buttonhole #video .buttons { background:url("../img/lancamentos/caseadeira/buttons.png") no-repeat scroll 0 0 transparent; display: block; margin: 90px 10px 0 0; background-position: 0 0px; text-indent: -999em; float: left; width: 39px; height: 87px; overflow: hidden; position: relative; }
+	#buttonhole #video .next { background-position: -45px 0; margin: 90px 0 0 10px; }
+	#buttonhole #video .disable { visibility: hidden; }
+	#buttonhole #video .overview { list-style: none; position: absolute; width: 390px; left: 0; top: 0; }
+	#buttonhole #video .overview li{ float: left; margin: 0 50px 0 0; padding: 1px; height: 310px; /*border: 1px solid #ff0000;*/ width: 350px;}
+	
+	#buttonhole .features 		 { margin:40px 0 0 0; background:url(../img/lancamentos/caseadeira/caseadeira_eletronica_zoje_frontal.png) no-repeat 250px 0; height:740px}
+	#buttonhole .feature .text   { font-size:16px}
+	
+		#buttonhole .feature01		 { position:absolute; margin:50px 0 0 30px; width:340px }
+			*+html #buttonhole .feature01 {  margin:50px 0 0 -930px; }/*HACK IE7*/
+		#buttonhole .feature01 .img  { float:left;}
+		#buttonhole .feature01 .text { float:right; border-bottom:2px solid #3e3e3e; width:200px; text-align:left; padding-top:45px}
+
+		#buttonhole .feature02		 { position:absolute; margin:250px 0 0 30px; width:450px }
+			*+html #buttonhole .feature02 {  margin:250px 0 0 -930px;}/*HACK IE7*/
+		#buttonhole .feature02 .img  { float:left;}
+		#buttonhole .feature02 .text { float:right; border-bottom:2px solid #3e3e3e; width:310px; text-align:left; padding-top:45px}
+
+		#buttonhole .feature03		 { position:absolute; margin:470px 0 0 50px; width:450px }
+			*+html #buttonhole .feature03 {  margin:450px 0 0 -930px;  }/*HACK IE7*/
+		#buttonhole .feature03 .img  { float:left; padding-top:80px}
+		#buttonhole .feature03 .text { float:right; border-bottom:2px solid #3e3e3e; border-right:2px solid #3e3e3e; width:310px; text-align:left; padding-top:125px}
+
+		#buttonhole .feature05		 { position:absolute; margin:30px 0 0 580px; width:270px; }
+			*+html #buttonhole .feature05 {  margin:50px 0 0 -380px;  }/*HACK IE7*/
+		#buttonhole .feature05 .img  { float:right; padding-bottom:10px; width:270px; text-align:right}
+		#buttonhole .feature05 .text { float:right; border-top:2px solid #3e3e3e; border-right:2px solid #3e3e3e; width:130px; text-align:left; padding-bottom:75px}
+		
+	#buttonhole .vector{ background:url(../img/lancamentos/caseadeira/vector.png) no-repeat center top; width:100%; padding:0; margin:0; margin-top:-10px;}
+		
+	#buttonhole .price	 { position:absolute; margin:-70px 0 0 50px; background-color:#303030; color:#FFF; padding:10px}
+		*+html #buttonhole .price {  margin:650px 0 0 -930px;}/*HACK IE7*/
+	#buttonhole .systems { position:absolute; margin:-70px 0 0 500px;}
+		*+html #buttonhole .systems {  margin:650px 0 0 -430px;}/*HACK IE7*/
+		#buttonhole .systems ul { list-style:circle}
+	
+	#buttonhole .typesButtonhole {}
+	#buttonhole .typesButtonhole .span8{ padding:10px 0}
+	#buttonhole .typesButtonhole .span2{ padding:5px 0}
+	
+	#buttonhole .marketing{}
+	     #buttonhole .files			{ padding:20px 0}
+		 #buttonhole .files .span1  { padding:0; margin:0; height:80px; width:80px}
+		 #buttonhole .files .span3  { padding-top:18px}
+	
+	.jeans 	  { margin:-720px 0 0 0; position:relative; height:800px; width:auto; z-index:-1; overflow:hidden;}
+	.imgJeans { background:url(../img/lancamentos/caseadeira/jeans.png) no-repeat; width:auto; height:757px; margin-left:38%}	 
+		 
+	#buttonhole .barFooterSewing{ background:url(../img/lancamentos/caseadeira/bar-footer.png) no-repeat center; width:100%; padding:0; margin:0; height:90px; padding:20px 0}
+
+@media (min-width: 768px) and (max-width: 979px) {
+#buttonhole .container  {}
+#buttonhole .header 	{ }
+	#buttonhole .seal   { margin-left:277px; }
+	
+#buttonhole .container 		  		 { }
+	#buttonhole .machine 	   		 { width:580px;margin-top:-60px;}
+	#buttonhole .description   		 { font-size:15px;}
+	#buttonhole .description ul  	 { height:200px;}
+	#buttonhole .description ul li   { padding:4px 0 }
+	#buttonhole .slides				 { padding-top:10px; padding-left:145px;}
+	#buttonhole .slidesjs-pagination { width:190px; }
+	#buttonhole .multiApp			 { position:absolute; width:190px; margin:-125px 0 0 -170px; }
+	
+	#buttonhole #video .viewport   { width: 80%;  }
+	#buttonhole #video .overview   { }
+	#buttonhole #video .overview li{ margin: 0 125px 0 125px;}
+	
+	#buttonhole .features 		 { margin:0 0 20px 0 ; background-position:80px 0}
+	#buttonhole .feature .text   { font-size:14px}
+		#buttonhole .feature01		 { display:none }
+		
+		#buttonhole .feature02		 { margin:250px 0 0 30px; width:250px }
+		#buttonhole .feature02 .text { width:110px;}
+		
+		#buttonhole .feature03		 {margin:470px 0 0 50px; width:310px }
+		#buttonhole .feature03 .text { width:160px; }
+		
+		#buttonhole .feature05		 { margin:30px 0 0 380px; width:270px; }
+		#buttonhole .feature05 .img  { padding-bottom:10px; width:270px;}
+		#buttonhole .feature05 .text { width:130px;}
+		
+	#buttonhole .vector{ background:none}
+	
+	#buttonhole .systems { margin:-70px 0 0 400px; font-size:12px}
+		
+		
+	#buttonhole .marketing{}
+	     .files			{ }
+		 .files .span1  { }
+		 .files .span3  { width:130px}
+		 
+	.jeans 	  { margin:-780px 0 0 0; position:relative; height:800px; width:auto; z-index:-1; overflow:hidden;}
+
+
+}
+@media (max-width: 767px) {
+	
+#buttonhole .whiteColor  { color:#0c838a}
+
+.container-fluid { background:none}
+#buttonhole .container 		 { text-align:center}
+	.quickMenu   { display:none}
+
+#buttonhole .logo{ width:100%} 
+#buttonhole .name h1     { font-size:18px; line-height:16px; padding:0; margin:0;height:25px;}
+
+#buttonhole .seal{ display:none}
+#buttonhole .machine 	   		 {  position:inherit; float:left; margin:0; padding:0; height:auto}
+	#buttonhole .resellers 	   		{ padding-top:0 }
+	#buttonhole .description   		{ padding-top:0px;font-size:16px;}
+		#buttonhole .slides				{ padding:0; margin:0; text-align:center}
+		#buttonhole .slidesjs-pagination	  { list-style: none; width:230px; margin: -5px 0px 0px 40px; position: absolute; border-top:3px solid #0c838a; text-align:center}
+		#buttonhole .multiApp { display:none}
+
+#buttonhole .suit 	   		 {  display:none}
+
+/* Tiny Carousel */
+#buttonhole #video { height: 100%; overflow:hidden; position: inherit; height:auto; padding:0 ; width:100%; margin:50px 0 ; display:none }
+#buttonhole #video i{ display:none}
+#buttonhole #video .viewport { float: left; width: 100%; height: 100%;  position: relative; }
+#buttonhole #video .buttons { display:none }
+#buttonhole #video .overview { list-style: none; position: inherit; width:100%; float:left; border:none;  }
+#buttonhole #video .overview li{ float: inherit; margin:0 auto; padding:0 10px; height: 251px; border:none; width: 100%; display:inline-block; text-align:center;  color:#333}
+
+#buttonhole .features	{ display:none}
+#buttonhole .price	 {  position:inherit; float:left; margin:0;  width:98%;}
+
+#buttonhole .systems { position:inherit; float:left; margin:0; padding:0;}
+#buttonhole .systems ul {  list-style:none}
+
+	#buttonhole .marketing{}
+	   # buttonhole .files			{ padding:0; margin:20px 0}
+		#buttonhole .files .span1  { padding:0; margin:0; height:auto; width:100%}
+		#buttonhole .files .span3  { padding-top:0px; margin:20px 0}
+		
+	.jeans 	  {  display:none}
+
+
+}

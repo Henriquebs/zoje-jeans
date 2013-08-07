@@ -1,0 +1,68 @@
+body{background-image:url(../img/impress/impress-background.png);overflow:hidden !important;}
+
+.jeans_loading{position:absolute;top:50%;left:50%;margin:-75.5px 0px 0px -228px}
+
+.jeans_loading .zoje_no_color, .jeans_loading .zoje_with_color{position:absolute;width:456px}
+
+.jeans_loading .zoje_with_color{background:url(../img/impress/zoje_with_color.png) no-repeat;width:0%;height:151px;overflow:hidden}
+
+.jeans_loading .zoje_with_color img{position:absolute}
+
+.jeans_impress{display:none}
+
+#inicial{width:900px;z-index:999}
+
+#inicial .logo{margin-bottom:35px;text-align:center}
+
+#bolso_frontal{z-index:998}
+
+.impress_shadow{background:url(../img/impress/impress_shadow.png);width:570px;height:30px;margin:-30px 110px;position:absolute}
+
+.impress_inicial_text{font-family:Arial;width:100%;padding:0px;margin:0px;text-align:center;color:#4c557f}
+
+.impress_inicial_text h2{font-size:40px;margin:20px 0px}
+
+.impress_inicial_text h6{font-size:18px;margin:-10px 0px}
+
+.thumbnail{background:white;-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.25);box-shadow:0 1px 4px rgba(0, 0, 0, 0.25);font-family:Arial}
+
+#first_thumbnail{width:570px;text-align:center;position:relative;left:50%;margin:-40px 0px 0px -300px;font-size:16px;}
+#info_thumbnail{width:450px;margin:0px 20px 20px 20px;padding:10px 30px 20px 30px;font-size:16px;}
+#info_thumbnail ul{font-size:16px;}
+#info_thumbnail ul li{font-size:14px;color:#696969;padding-left:30px}
+
+.thumbnail:hover, .thumbnail:focus{border-color:#0088cc;-webkit-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);-moz-box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);box-shadow:0 1px 4px rgba(0, 105, 214, 0.25);}
+
+.impress_all_types{width:580px;height:530px;margin:30px 0px 0px 125px}
+
+.impress_type{width:100px;height:0px;float:left;margin:0px 40px 55px 40px;padding:102px 0px 0px 0px;line-height:16px;font-size:12px;text-align:center;font-family:Arial;border-radius:70px;border:3px solid #e9a9a7;cursor:pointer}
+
+.impress_type:hover{border:3px solid #d5706d}
+
+.costura_imagens{background:url('../img/impress/shape_costura.png') no-repeat}
+
+#costura_1{background:url('../img/impress/costura_1.png') no-repeat 50% 50%}
+#costura_2{background:url('../img/impress/costura_2.png') no-repeat 50% 50%}
+#costura_3{background:url('../img/impress/costura_3.png') no-repeat 50% 50%}
+#costura_4{background:url('../img/impress/costura_4.png') no-repeat 50% 50%}
+#costura_5{background:url('../img/impress/costura_5.png') no-repeat 50% 50%}
+#costura_6{background:url('../img/impress/costura_6.png') no-repeat 50% 50%}
+#costura_7{background:url('../img/impress/costura_7.png') no-repeat 50% 50%}
+#costura_8{background:url('../img/impress/costura_8.png') no-repeat 50% 50%}
+#costura_9{background:url('../img/impress/costura_9.png') no-repeat 50% 50%}
+
+.info_hr{background:#cbdad1;width:556px;height:28px;}
+
+.costura_info{width:550px;height:170px;color:#4c557f;font-family:Arial;font-size:36px;line-height:18px;display:table;margin:10px 0px 50px 0px}
+.costura_info span{font-size:18px;}
+
+.costura_info .text{position:relative;margin:-170px 0px 0px 200px}
+
+
+#caseado-de-olho{ margin-left:380px}
+
+#bolso-frontal, #costura-do-ziper{margin-left:-150px}
+
+#costura-do-ziper{margin-top:120px}
+
+/* Plugin */
